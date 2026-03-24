@@ -33,4 +33,4 @@ Prioridade:
 - P1
 
 Evidência
-![Ver imagem de evidência](/evidences/BUG-04.png)
+[Ver imagem de evidência](/evidences/BUG-04.png)
