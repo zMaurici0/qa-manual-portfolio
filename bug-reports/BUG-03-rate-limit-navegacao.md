@@ -1,17 +1,14 @@
 # BUG-03 — Usuário bloqueado (Erro 1015) após navegação rápida entre produtos
 
 Sumário:
-- A navegação normal do usuário (abrindo produtos rapidamente) aciona o bloqueio de taxa do Cloudflare (Erro 1015). Isso bloqueia usuários legítimos e pode impactar negativamente as conversões.
+- A navegação normal do usuário (abrindo produtos rapidamente) aciona o bloqueio de taxa do Cloudflare (Erro 1015). Isso bloqueia usuários e pode impactar negativamente as conversões.
 
 Ambiente:
 - Site: https://demo.opencart.com/
-- Navegador: Chrome
-- OS: macOS
+- Navegador: Microsoft Edge
+- OS: Windows 11
 - Área: Navegação de produtos
 - Erro: Cloudflare 1015 (Rate Limited)
-
-Pré-condições:
-- Usuário consegue acessar a loja normalmente
 
 Passos para reproduzir
 
@@ -25,7 +22,7 @@ Resultado atual
 - Usuário é bloqueado com erro Cloudflare 1015 (Rate Limited)
 
 Resultado esperado
-- Usuários devem conseguir navegar pelos produtos normalmente. Caso seja necessário proteção contra bots, o sistema deve aplicar medidas progressivas (como limitação gradual ou captcha) em vez de bloquear usuários reais
+- Usuários devem conseguir navegar pelos produtos normalmente.
 
 Severidade: Alta (Bloqueia o uso do site)
 
@@ -33,4 +30,4 @@ Prioridade:
 - P1
 
 Evidência
-![Ver imagem de evidência](/evidences/BUG-04.png)
+[Ver imagem de evidência](/evidences/BUG-03.png)
