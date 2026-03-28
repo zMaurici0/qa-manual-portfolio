@@ -12,10 +12,10 @@ Será utilizada uma combinação de Testes Baseados em Script (com base nos caso
 
 ## 4. Gerenciamento de Riscos
 
-| Risco                            | Impacto| Mitigação                                                      |
-|------------------------------    -------- |------------------------------------------------------------------|
-| Ambiente de demonstração instável| Alto  | Limpar cookies/cache periodicamente e reiniciar a sessão    |
-| Mudanças na interface do site    | Médio  | Manter locators e passos de teste atualizados                   |
+| Risco                             | Impacto | Mitigação                                                      |
+|----------------------------------|---------|----------------------------------------------------------------|
+| Ambiente de demonstração instável| Alto    | Limpar cookies/cache periodicamente e reiniciar a sessão       |
+| Mudanças na interface do site    | Médio   | Manter locators e passos de teste atualizados                  |
 
 ## 5. Critérios de Saída
 - 100% dos testes de Smoke executados com sucesso  

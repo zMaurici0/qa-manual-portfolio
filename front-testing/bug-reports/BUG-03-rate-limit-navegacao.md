@@ -30,4 +30,8 @@ Prioridade:
 - P1
 
 Evidência
+<<<<<<< HEAD:front-testing/bug-reports/BUG-03-rate-limit-navegacao.md
 [Ver imagem de evidência](/evidences/BUG-03.png)
+=======
+[Ver imagem de evidência](/evidences/BUG-04.png)
+>>>>>>> 532f0dc82ef1c74397af7217c858c4a989b0d9a5:bug-reports/BUG-03-rate-limit-navegacao.md
