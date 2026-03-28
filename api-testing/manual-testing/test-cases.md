@@ -39,7 +39,6 @@ Segue exemplo: [Ver print](./evidences/login.png)
 - **Pré-requisito:** Nenhum
 
 **Body:** Nenhum
-
 **Resultado esperado:**
 - Status HTTP: 200
 - Campo quantidade presente com valor numérico
@@ -47,7 +46,7 @@ Segue exemplo: [Ver print](./evidences/login.png)
 
 **Resultado obtido:** Status 200 retornado, campos quantidade e usuarios presentes
 
-**Evidência:** [Ver print](./evidences/CT-01.png)
+**Evidência:** [Ver print](../evidences/CT-01.png)
 
 **Status:** passou
 
@@ -60,14 +59,13 @@ Segue exemplo: [Ver print](./evidences/login.png)
 - **Endpoint:** /usuarios/{_id}
 - **Objetivo:** Verificar se um usuário é retornado corretamente ao buscar por ID válido
 - **Pré-requisito:** Usar um _id retornado no CT-01
- 
 **Resultado esperado:**
 - Status HTTP: 200
 - Campos nome, email, administrador e _id presentes na resposta
  
 **Resultado obtido:** Status 200 retornado, todos os campos estão presentes na resposta
 
-**Evidência:** [Ver print](./evidences/CT-02.png)
+**Evidência:** [Ver print](../evidences/CT-02.png)
  
 **Status:** — passou
  
