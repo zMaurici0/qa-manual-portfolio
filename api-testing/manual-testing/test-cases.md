@@ -15,9 +15,9 @@
 - **Total de testes executados:** 18
 - **Módulos testados:** Login, Usuários, Produtos
 - **Métodos testados:** GET, POST, PUT, DELETE 
-- **Testes aprovados:**
-- **Testes reprovados:**
-- **Taxa de aprovação:** 
+- **Testes aprovados:** 15
+- **Testes reprovados:** 0
+- **Taxa de aprovação:** 100%
 
 ---
 
@@ -187,7 +187,6 @@ Segue exemplo: [Ver print](../evidences/login.png)
 
 ## CT-07 - Excluir usuário cadastrado
  
-- **ID:** CT-07
 - **Método:** DELETE
 - **Endpoint:** /usuarios/{_id}
 - **Objetivo:** Verificar se um usuário é excluído com sucesso
@@ -207,7 +206,6 @@ Segue exemplo: [Ver print](../evidences/login.png)
  
 ## CT-08 - Excluir usuário com ID inexistente
  
-- **ID:** CT-08
 - **Método:** DELETE
 - **Endpoint:** /usuarios/{_id}
 - **Objetivo:** Verificar o comportamento da API ao tentar excluir um ID que não existe
