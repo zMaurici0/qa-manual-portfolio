@@ -4,7 +4,7 @@
 Este plano define a estratégia para validar as funcionalidades principais da plataforma OpenCart, com foco na experiência do usuário final e na integridade dos dados.
 
 ## 2. Escopo
-- Módulos: Registro de Conta, Autenticação, Catálogo, Carrinho e Checkout  
+- Módulos: Registro de Conta, Autenticação, Catálogo e Carrinho  
 - Tipos de Teste: Teste de Fumaça (Smoke Testing) e Testes Exploratórios
 
 ## 3. Estratégia de Teste
